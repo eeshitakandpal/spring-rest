@@ -32,7 +32,7 @@ public class StudentRestController {
 	// define an endpoint for "/students" - return list of students
 	
 	@GetMapping("/students")
-	public List <Student> getStudents(){
+	public List<Student> getStudents(){
 		
 		return theStudents;
 	}
